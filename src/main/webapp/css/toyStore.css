@@ -1,0 +1,301 @@
+﻿body {
+    background-color: #121212;
+    width: 90%;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p, label, div.form-field {
+    font-size: 14px;
+}
+
+header {
+    margin: 25px;
+}
+
+    header h1 {
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+
+    header p {
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+
+    header img {
+        height: 110px;
+    }
+
+nav {
+    margin-top: 25px;
+}
+
+    nav h2, nav p {
+        color: #FFF;
+        margin-left: 25px;
+    }
+
+    nav p {
+        font-size: 12px;
+        font-style: italic;
+    }
+
+
+
+li {
+    padding-bottom: 4px;
+}
+
+    li a {
+        color: #0D118B;
+        text-decoration: none;
+        font-size: 18px;
+        text-align: center;
+    }
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+    nav ul li {
+        background-color: #FFF;
+        border-radius: 8px;
+        list-style: none;
+        text-align: center;
+        flex-grow: 1;
+        padding-top: 5px;
+        margin: 0 10px;
+        max-width: 200px;
+    }
+
+
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.value {
+    color: green;
+    font-weight: bold;
+}
+
+form div {
+    padding: 10px 0px;
+}
+
+    form div label {
+        width: 200px;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 25px;
+        color: black;
+    }
+
+form .field-validation-error {
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+form button {
+    text-align: center;
+    margin-left: 229px;
+}
+
+input[type=text], input[type=datetime], textarea {
+    width: 300px;
+}
+
+th, td {
+    color: white;
+}
+
+.centeredPanel th, .centeredPanel td {
+	color: black;
+}
+
+.alert {
+	text-align:center;
+	font-size: 18px;
+	padding: 10px;
+	width:50%;
+	color:red;
+	background-color: rgba(200, 200, 200, 1);
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+}
+
+table tr:first-child {
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+
+table td {
+    min-width: 75px;
+    padding: 5px 5px;
+}
+
+
+
+section.centeredPanel {
+    clear: both;
+    display: block;
+    width: 90%;
+    vertical-align: top;
+    min-height: 450px;
+    background-color: #FFF;
+    border-radius: 7px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+    section.centeredPanel h2 {
+        color: #000000;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    section.centeredPanel p {
+        color: #000;
+        text-align: left;
+    }
+
+.centered {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.success-message {
+    background-color: #5CB85C;
+    text-align: center !important;
+    color: #FFF !important;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.centeredPanel h1 {
+	text-align: center;
+}
+
+label {
+	display: inline-block;
+	min-width: 20%;
+}
+
+select {
+	margin-bottom: 15px;
+}
+
+input {
+	margin-bottom: 15px;
+}
+
+.productPrice {
+	color: rgba(83,148,246,1);
+	font-size: 18px;
+	padding-top: 15px;
+}
+
+.output {
+	display: inline-block;
+	vertical-align: top;
+	font-weight: 400;
+	font-size: 18px;
+	max-width: 60%;
+}
+
+.output .productName {
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+.productDescription {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.buyInput {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buyInput input {
+	width: 200px;
+}
+
+.buyInput .buyBtn {
+	width: 100px;
+}
+
+.cartImg{
+	width: 100%;
+}
+
+.imgColumn {
+	width: 20%;
+}
+
+.forumContainer, .productContainer {
+	list-style: none;
+}
+
+.forumContainer{
+	padding:20px;
+}
+.formList li:nth-child(even) {
+	background-color: #CCC !important;
+}
+.postTitle {
+	font-size: 20px;
+	font-weight:800;
+}
+.postUsername {
+	font-size:12px;
+	color:grey;
+	padding-bottom: 15px;
+}
+
+.reviewTitle {
+	font-weight: 800;
+	font-size: 20px;
+}
+
+.reviewUsername {
+	padding-bottom: 10px;
+}
+.total {
+	text-align:right;
+}
+.finalTotal {
+	padding:0 0 0 40px;
+	display: inline-block;
+}
+.cartTable td, .cartTable th {
+	text-align:left;
+}
+.checkout {
+	text-align:right;
+}
+.productImg{
+	width: 20%;
+}
