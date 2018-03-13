@@ -1,5 +1,5 @@
-DROP TABLE products;
-DROP TABLE categories;
+DROP TABLE IF EXISTS products;
+DROP TABLE IF EXISTS categories;
 
 CREATE TABLE categories
 (

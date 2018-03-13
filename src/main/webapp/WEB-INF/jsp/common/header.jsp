@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Kolectables</title>
+    <title>Kolectibles</title>
     <c:url value="/css/toyStore.css" var="cssHref" />
     <link rel="stylesheet" href="${cssHref}">
 </head>
@@ -16,12 +16,12 @@
         <a href="${homePageHref}">
         		<img src="${logoSrc}" alt="Solar System Geek logo" />
         </a>
-        <h1>Kolectables Toy Store</h1>
+        <h1>Kolectibles Toy Store</h1>
         <p> </p>
     </header>
     <nav>
-        <h2>Collectables for sale!</h2>
-        <p> Select item </p>
+        <h2>Figures for sale!</h2>
+        <p> </p>
         <ul>
         		<c:url value="/category/2" var="marvelItemsList" />
             <li><a href="${marvelItemsList}">Marvel Items</a></li>

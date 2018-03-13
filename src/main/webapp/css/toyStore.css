@@ -37,6 +37,7 @@ header {
 
     header img {
         height: 110px;
+        border-radius: 8px;
     }
 
 nav {
@@ -297,5 +298,11 @@ input {
 	text-align:right;
 }
 .productImg{
-	width: 20%;
+	width: 40%;
+}
+
+.copyright{
+	color:#9b9a9c;
+ 	text-align:center;
+	
 }
