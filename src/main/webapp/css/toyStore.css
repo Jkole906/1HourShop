@@ -258,6 +258,7 @@ input {
 
 .forumContainer, .productContainer {
 	list-style: none;
+	text-align: center;
 }
 
 .forumContainer{
@@ -298,8 +299,13 @@ input {
 	text-align:right;
 }
 .productImg{
-	width: 40%;
+	width: 25%;
 }
+
+.productImgDetail{
+	width: 60%;
+}
+
 
 .copyright{
 	color:#9b9a9c;

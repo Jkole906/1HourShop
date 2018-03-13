@@ -7,7 +7,7 @@
 	
 		<div class="productContainer">
 		
-			<img class="productImg" alt="${product.name}" src="${product.image}" />
+			<img class="productImgDetail" alt="${product.name}" src="${product.image}" />
 		
 		<div class="output">
 			<h2 class="productName"><c:out value="${product.name}" /></h2>
